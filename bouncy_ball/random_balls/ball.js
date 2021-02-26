@@ -1,7 +1,7 @@
 var Xmin = 0;
-var Xmax = window.innerWidth-400;
+var Xmax = window.innerWidth;
 var Ymin = 0;
-var Ymax = window.innerHeight-200;
+var Ymax = window.innerHeight;
 
 function createBall(id){
     

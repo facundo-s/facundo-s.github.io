@@ -7,6 +7,7 @@ On a second iteration of the project I created functions that created n number o
 </p>
 <h3>Usage</h3>
 <p>
-  You can visit the original project: https://facundo-s.github.io/bouncy_ball/bouncy_ball.html
-  You can visit the more complex project: https://facundo-s.github.io/bouncy_ball/random_balls/index.html 
+You can visit the original project: https://facundo-s.github.io/bouncy_ball/bouncy_ball.html
+
+You can visit the more complex project: https://facundo-s.github.io/bouncy_ball/random_balls/index.html 
 </p>
