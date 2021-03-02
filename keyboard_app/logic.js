@@ -222,6 +222,8 @@ function startGame(){
 }
 
 function game(){
+    cd = document.getElementById("countdown")
+    cd.innerHTML="60 s";
     input.value = ''
     display.innerHTML=''
     time=59
