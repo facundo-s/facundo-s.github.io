@@ -213,15 +213,25 @@ var first_stroke = true;
 var word;
 var correct = 0;
 
-function game(){
-    
-    createLines();
+function startGame(){
 
     alert('Welcome to the typing speed test!\n\nYou have 60 seconds to type as many words as you can.\nWords are randomly selected from the top 200 words from the English language.\n\nOnce you hit spacebar the word you entered gets judged as correct/incorrect and you must type in the next word to keep playing. Begin by typing into the input box.   Good luck!')
-    input.focus()
+    game()
     input.addEventListener("keydown", keyDown)
     input.addEventListener("keyup", keyUp)
 }
+
+function game(){
+    input.value = ''
+    display.innerHTML=''
+    time=59
+    word=0
+    correct=0
+    first_stroke=true;
+    createLines()
+    input.focus()
+}
+
 
 function createLines(){
     createNLines(10);
@@ -247,7 +257,7 @@ function keyDown(stroke){
     if (word==display.children.length){
         display.innerHTML=''
         word=0
-        createNLines(10)
+        createLines()
     }
 }
 
@@ -274,9 +284,8 @@ function countdown(){
     cd.innerHTML=time.toString() + " s";
     time -=1;
     if (time<0){
-        // node = document.getElementById('result')
-        // node.innerHTML = `Your typing speed is: ${correct} wpm!`
-        alert(`Your typing speed is: ${correct} wpm!`)
+        alert(`Your typing speed is: ${correct} wpm!\n\n Dismiss this banner to start again.`)
+        game()
         return
     }
     setTimeout(countdown, 1000)
@@ -284,4 +293,4 @@ function countdown(){
 
 
 
-game();
+startGame();
