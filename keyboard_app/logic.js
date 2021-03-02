@@ -218,7 +218,7 @@ function game(){
     createLines();
 
     alert('Welcome to the typing speed test!\n\nYou have 60 seconds to type as many words as you can.\nWords are randomly selected from the top 200 words from the English language.\n\nOnce you hit spacebar the word you entered gets judged as correct/incorrect and you must type in the next word to keep playing. Begin by typing into the input box.   Good luck!')
-
+    input.focus()
     input.addEventListener("keydown", keyDown)
     input.addEventListener("keyup", keyUp)
 }
