@@ -9,6 +9,8 @@ As of today there are two data sets that I played around with. The first was the
 <h3>Usage</h3>
 <p>
 View the distribution of salaries for City of Boston public employees: https://facundo-s.github.io/boston_data/chart/sort_salaries.html
+
 Take a peek at the highest earners here: https://facundo-s.github.io/boston_data/ranking/index1.html
+
 View Chicago's distribution of grafitti reports here: https://facundo-s.github.io/boston_data/grafitti/graffitiPerZip.html 
 </p>
