@@ -1,8 +1,11 @@
 <h2>PacMan animation</h2>
 <h3>Description</h3>
 <p>
-Here is a demo for a simple animation that simulates PacMan's motion back and forth on the screen. The purpose of the exercise was for me to practice writing functions in javascript that manipulate img elements in the DOM. 
+In this project I explored programmatically creating pacmen objects in the browser and storing them in a virtual DOM to keep track of their movement. The purpose of this exercise was to practice manipulating the DOM in Javascript, simulating motion using timers, maintaining state and setting screen boundaries. 
 </p>
+<p>
+  Future iterations of this project would make the pacmen open and close their mouths using the various images in the images folder.
+  </p>
 <p>
 This project is licensed under the MIT license.
 </p>
