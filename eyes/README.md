@@ -1,7 +1,7 @@
 <h2>Eye movement animation</h2>
 <h3>Description</h3>
 <p>
-In this exercise I created a browser animation that tracks the motion of the mouse as it's moved around the screen. It uses Javascript to dynamically change the position of div elements, creating the effect of animal eyes following the mouse around. 
+In this exercise I created a browser animation that tracks the motion of the mouse as it's moved around the screen. It uses Javascript to dynamically change the position of div elements, creating the effect of animal eyes following the mouse around. The purpose of this exercise was to practice using browser events to trigger actions in code, writing event handlers and asynchronous functions.
 <p>
   Future iterations of this project would allow the eyes to follow a click and drag operation which would make this animation work on mobile.
   </p>
