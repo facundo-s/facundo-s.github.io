@@ -1,9 +1,9 @@
-<h2>PacMan animation</h2>
+<h2>Eye movement animation</h2>
 <h3>Description</h3>
 <p>
-Here is a demo for a simple animation that simulates PacMan's motion back and forth on the screen. The purpose of the exercise was for me to practice writing functions in javascript that manipulate img elements in the DOM. 
+In this exercise I created a browser animation that tracks the motion of the mouse as it's moved around the screen. It uses Javascript to dynamically change the position of div elements, creating the effect of animal eyes following the mouse around. 
 </p>
 <h3>Usage</h3>
 <p>
-  You can visit the site at: https://facundo-s.github.io/pacman/index.html
+  You can visit the site at: https://facundo-s.github.io/eyes/index.html
 </p>
